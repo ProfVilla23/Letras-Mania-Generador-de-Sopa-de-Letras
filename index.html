@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./img/invertech.ico" type="image/x-icon">
+    <title>Letras Manía - Generador de Sopas de Letras</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./img/invertech.png" alt="Logo de Letras Manía">
+                    </a>
+                </div>
+                <div class="menu-list-container">
+                    <ul class="menu-list">
+                        <li class="Activo"><a href="index.html">Inicio</a></li>
+                        <li><a href="consejos.html">Consejos</a></li>
+                        <li><a href="codigo.html">Código</a></li>
+                        <li><a href="autor.html">Autor</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Generador de Sopas de Letras</h1>
+        <div id="controls">
+            <textarea id="wordsInput" placeholder="Introduce las palabras separadas por comas..."></textarea>
+            <button onclick="generateWordSearch()">Generar Sopa de Letras</button>
+            <button onclick="solveWordSearch()">Resolver</button>
+            <button onclick="saveAsPDF()">Guardar como PDF</button>
+            <button onclick="saveAsPNG()">Guardar como PNG</button>
+        </div>
+        <div id="wordSearchContainer"></div>
+        <div id="wordListContainer"></div> 
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
