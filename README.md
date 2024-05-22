@@ -1,4 +1,6 @@
 Generador de Sopas de Letras
+
+
 Este es un generador de sopas de letras desarrollado con HTML, JavaScript y CSS puro (Vanilla). Permite crear sopas de letras personalizadas de 15x15 caracteres, donde las palabras se pueden ingresar separadas por comas. Además, ofrece la posibilidad de descargar la sopa de letras generada en formato PDF y PNG para su posterior impresión o uso digital.
 
 Funcionalidades
