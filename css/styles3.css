@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.menu {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu .logo img {
+    height: 45px; /* Ajusta la altura del logo según tus necesidades */
+}
+
+.menu .menu-list-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.menu .menu-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu .menu-list li {
+    margin-left: 20px;
+}
+
+.menu .menu-list li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.menu .menu-list li a:hover {
+    background-color: green;
+    color: black;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    margin: 20px 0;
+}
+
+.content p {
+    margin: 10px 0;
+}
+
+.github-link {
+    margin: 20px 0;
+}
+
+.github-link img {
+    max-width: 150px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}

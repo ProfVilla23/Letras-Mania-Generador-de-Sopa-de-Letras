@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.menu {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu .logo img {
+    height: 45px; /* Ajusta la altura del logo según tus necesidades */
+}
+
+.menu .menu-list-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.menu .menu-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu .menu-list li {
+    margin-left: 20px;
+}
+
+.menu .menu-list li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.menu .menu-list li a:hover {
+    background-color: green;
+    color: black;
+}
+
+
+
+.container {
+    margin: 2rem auto;
+    padding: 1rem;
+   
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+#controls {
+    margin-bottom: 1rem;
+}
+
+#wordsInput {
+    width: 100%;
+    height: 100px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#wordSearchContainer {
+    margin-top: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#wordListContainer {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
